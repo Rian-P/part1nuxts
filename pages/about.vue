@@ -31,7 +31,7 @@
       </b-carousel>
     </div>
     <br>
-    <div class="card-container">
+    <div class=" card-container">
       <div class="card" v-for="(slide, index) in slides" :key="index">
         <img :src="slide.imgSrc" class="card-img-top" :alt="slide.caption">
         <div class="card-body">
@@ -41,7 +41,7 @@
     </div>
     <br>
     <div class="container mx-auto py-4">
-      <div class="row">
+      <div class="border row">
         <div class="col-md-6">
           <b-img :src="Hero.gambar" fluid-grow class="figure-img img-fluid rounded" alt="..."></b-img>
         </div>
@@ -49,8 +49,12 @@
           <p class="ms-3 my-0 custom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique
             volutpat nunc id maximus. Sed eget bibendum massa.</p>
         </div>
+        <br>
+        <br>
       </div>
-      <div class="row">
+      </div>
+      <div class="container mx-auto py-4">
+      <div class="border  row">
 
         <div class="col-md-6 d-flex align-items-center">
           <p class="ms-3 my-0 custom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique
